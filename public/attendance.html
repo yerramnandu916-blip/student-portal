@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Attendance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Attendance</h1>
+</header>
+
+<div class="container">
+
+<table>
+
+<tr>
+    <th>Details</th>
+    <th>Attendance</th>
+</tr>
+
+<tr>
+    <td>Total Classes</td>
+    <td id="total"></td>
+</tr>
+
+<tr>
+    <td>Present</td>
+    <td id="present"></td>
+</tr>
+
+<tr>
+    <td>Percentage</td>
+    <td id="percentage"></td>
+</tr>
+
+</table>
+
+<br>
+
+<a href="dashboard.html">
+    <button>Back</button>
+</a>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+
+const pin = localStorage.getItem("studentPin");
+
+const student = students[pin];
+
+/* Get Attendance */
+
+let total = student.attendance.total;
+
+let present = student.attendance.present;
+
+/* Show Total */
+
+document.getElementById("total").innerHTML = total;
+
+/* Show Present */
+
+document.getElementById("present").innerHTML = present;
+
+/* Calculate Percentage */
+
+let percentage = (present / total) * 100;
+
+/* Show Percentage */
+
+document.getElementById("percentage").innerHTML =
+percentage.toFixed(2) + "%";
+
+</script>
+
+<script src="script.js"></script>
+
+<script>
+    loadAttendance();
+</script>
+
+</body>
+</html>

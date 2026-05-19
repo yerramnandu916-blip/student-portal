@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marks Memo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Marks Memo</h1>
+</header>
+
+<div class="container">
+
+<table border="1" width="100%" cellpadding="10">
+
+<thead>
+<tr>
+    <th>Subject</th>
+    <th>Marks</th>
+</tr>
+</thead>
+
+<tbody id="marksTable">
+</tbody>
+
+<tr>
+    <th>Total</th>
+    <th id="totalMarks"></th>
+</tr>
+
+<tr>
+    <th>Percentage</th>
+    <th id="percentage"></th>
+</tr>
+
+</table>
+
+<br>
+
+<a href="dashboard.html">
+    <button>Back</button>
+</a>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+
+const pin = localStorage.getItem("studentPin");
+
+const student = students[pin];
+
+const marksTable = document.getElementById("marksTable");
+
+let total = 0;
+let count = 0;
+
+for(let subject in student.marks){
+
+    let marks = student.marks[subject];
+
+    total += marks;
+    count++;
+
+    marksTable.innerHTML += `
+        <tr>
+            <td>${subject}</td>
+            <td>${marks}</td>
+        </tr>
+    `;
+}
+
+document.getElementById("totalMarks").innerHTML = total;
+
+document.getElementById("percentage").innerHTML =
+(total / count).toFixed(2) + "%";
+
+</script>
+
+</body>
+</html>
