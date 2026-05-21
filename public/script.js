@@ -11,10 +11,10 @@ const students = {
         },
 
         marks: {
-            "Plant Breeding": 95,
-            "Tropical Fruit Culture": 90,
+            "Tropical Fruit Culture": 95,
+            "Species and Plantation": 90,
             "Commercial Floriculture": 93,
-            "Species and Plantation": 89,
+            "Plant Breeding": 89,
             "Manures and Fertilizers": 86,
             "Plant Pathology": 99
         }
@@ -30,10 +30,10 @@ const students = {
         },
 
         marks: {
-            "Plant Breeding": 88,
-            "Tropical Fruit Culture": 91,
+            "Tropical Fruit Culture": 88,
+            "Species and Plantation": 91,
             "Commercial Floriculture": 84,
-            "Species and Plantation": 80,
+            "Plant Breeding": 80,
             "Manures and Fertilizers": 86,
             "Plant Pathology": 90
         }
@@ -50,10 +50,10 @@ const students = {
         },
 
         marks: {
-            "Plant Breeding": 76,
-            "Tropical Fruit Culture": 71,
+            "Tropical Fruit Culture": 76,
+            "Species and Plantation": 71,
             "Commercial Floriculture": 86,
-            "Species and Plantation": 90,
+            "Plant Breeding": 90,
             "Manures and Fertilizers": 86,
             "Plant Pathology": 99
         }
@@ -70,10 +70,10 @@ const students = {
         },
 
         marks: {
-            "Plant Breeding": 78,
-            "Tropical Fruit Culture": 91,
+            "Tropical Fruit Culture": 78,
+            "Species and Plantation": 91,
             "Commercial Floriculture": 74,
-            "Species and Plantation": 90,
+            "Plant Breeding": 90,
             "Manures and Fertilizers": 76,
             "Plant Pathology": 88
         }
