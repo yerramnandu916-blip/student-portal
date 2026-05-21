@@ -1,7 +1,7 @@
 // Multiple Students Data
 const students = {
 
-    "23001-CM-001": {
+    "kkphp/2025-01": {
 
 	name:"Nithya",
 
@@ -20,7 +20,7 @@ const students = {
         }
     },
 
-    "23001-CM-002": {
+    "kkphp/2025-02": {
 
 	name:"Usha sri",
 
@@ -40,7 +40,7 @@ const students = {
     },
  
     
-    "23001-CM-003": {
+    "kkphp/2025-03": {
 
 	name:"Lavanya",
 
@@ -60,7 +60,7 @@ const students = {
     },
 
     
-    "23001-CM-004": {
+    "kkphp/2025-04": {
 
 	name:"Arthi",
 
@@ -107,9 +107,9 @@ function loadAttendance(){
 
     const pin = localStorage.getItem("studentPin");
 
-    const student = students[pin];
+    if(pin && students[pin]){
 
-    if(student){
+        const student = students[pin];
 
         const total = student.attendance.total;
         const present = student.attendance.present;
@@ -123,6 +123,11 @@ function loadAttendance(){
 
         document.getElementById("percentage").innerHTML =
         percentage + "%";
+
+    } else {
+
+        alert("Please login first");
+        window.location.href = "index.html";
 
     }
 
