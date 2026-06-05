@@ -12,14 +12,38 @@
 
 <div class="container">
 
-<table border="1" width="100%" cellpadding="10">
-
 <thead>
 <tr>
     <th>Subject</th>
     <th>Marks</th>
 </tr>
 </thead>
+
+<table border="1" width="100%" cellpadding="10">
+
+<tr>
+    <td><b>Name</b></td>
+    <td id="studentName"></td>
+</tr>
+
+<tr>
+    <td><b>PIN Number</b></td>
+    <td id="studentPin"></td>
+</tr>
+
+<tr>
+    <td><b>Branch</b></td>
+    <td>B.Sc Horticulture</td>
+</tr>
+
+<tr>
+    <td><b>Semester</b></td>
+    <td>V Semester</td>
+</tr>
+
+</table>
+
+<br>
 
 <tbody id="marksTable">
 </tbody>
@@ -32,6 +56,16 @@
 <tr>
     <th>Percentage</th>
     <th id="percentage"></th>
+</tr>
+
+<tr>
+    <th>GPA</th>
+    <th id="gpa"></th>
+</tr>
+
+<tr>
+    <th>Result</th>
+    <th id="result"></th>
 </tr>
 
 </table>
@@ -76,6 +110,18 @@ document.getElementById("totalMarks").innerHTML = total;
 
 document.getElementById("percentage").innerHTML =
 (total / count).toFixed(2) + "%";
+
+document.getElementById("studentName").innerHTML =
+student.name;
+
+document.getElementById("studentPin").innerHTML =
+pin;
+
+document.getElementById("gpa").innerHTML =
+student.gpa;
+
+document.getElementById("result").innerHTML =
+student.result;
 
 </script>
 

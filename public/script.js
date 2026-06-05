@@ -10,6 +10,9 @@ const students = {
             present: 105
         },
 
+	gpa:"92%",
+        result:"PASS",
+
         marks: {
             "Tropical Fruit Culture": 95,
             "Species and Plantation": 90,
@@ -28,6 +31,9 @@ const students = {
             total: 120,
             present: 120
         },
+
+	gpa:"86.5%",
+        result:"PASS",
 
         marks: {
             "Tropical Fruit Culture": 88,
@@ -49,6 +55,9 @@ const students = {
             present: 109
         },
 
+	gpa:"84.6%",
+        result:"PASS",
+
         marks: {
             "Tropical Fruit Culture": 76,
             "Species and Plantation": 71,
@@ -68,6 +77,9 @@ const students = {
             total: 120,
             present: 115
         },
+
+	gpa:"82.8%",
+        result:"PASS",
 
         marks: {
             "Tropical Fruit Culture": 78,
@@ -89,13 +101,16 @@ const students = {
             present: 115
         },
 
+	gpa:"82.8%",
+        result:"PASS",
+
         marks: {
-            "Tropical Fruit Culture": 78,
+            "Tropical Fruit Culture": 88,
             "Species and Plantation": 91,
             "Commercial Floriculture": 74,
             "Plant Breeding": 90,
             "Manures and Fertilizers": 76,
-            "Plant Pathology": 88
+            "Plant Pathology": 78
         }
     },
 
@@ -109,12 +124,15 @@ const students = {
             present: 115
         },
 
+	gpa:"81.1%",
+        result:"PASS",
+
         marks: {
-            "Tropical Fruit Culture": 78,
-            "Species and Plantation": 91,
+            "Tropical Fruit Culture": 88,
+            "Species and Plantation": 61,
             "Commercial Floriculture": 74,
             "Plant Breeding": 90,
-            "Manures and Fertilizers": 76,
+            "Manures and Fertilizers": 86,
             "Plant Pathology": 88
         }
     },
@@ -129,12 +147,15 @@ const students = {
             present: 115
         },
 
+	gpa:"86.1%",
+        result:"PASS",
+
         marks: {
-            "Tropical Fruit Culture": 78,
-            "Species and Plantation": 91,
-            "Commercial Floriculture": 74,
+            "Tropical Fruit Culture": 98,
+            "Species and Plantation": 71,
+            "Commercial Floriculture": 84,
             "Plant Breeding": 90,
-            "Manures and Fertilizers": 76,
+            "Manures and Fertilizers": 86,
             "Plant Pathology": 88
         }
     },
@@ -149,11 +170,14 @@ const students = {
             present: 115
         },
 
+	gpa:"77.8%",
+        result:"PASS",
+
         marks: {
-            "Tropical Fruit Culture": 78,
-            "Species and Plantation": 91,
+            "Tropical Fruit Culture": 88,
+            "Species and Plantation": 61,
             "Commercial Floriculture": 74,
-            "Plant Breeding": 90,
+            "Plant Breeding": 80,
             "Manures and Fertilizers": 76,
             "Plant Pathology": 88
         }
@@ -169,13 +193,16 @@ const students = {
             present: 115
         },
 
+	gpa:"77.8%",
+        result:"PASS",
+
         marks: {
             "Tropical Fruit Culture": 78,
-            "Species and Plantation": 91,
+            "Species and Plantation": 71,
             "Commercial Floriculture": 74,
-            "Plant Breeding": 90,
-            "Manures and Fertilizers": 76,
-            "Plant Pathology": 88
+            "Plant Breeding": 80,
+            "Manures and Fertilizers": 86,
+            "Plant Pathology": 78
         }
     },
 
@@ -189,13 +216,16 @@ const students = {
             present: 115
         },
 
+	gpa:"74.5%",
+        result:"PASS",
+
         marks: {
-            "Tropical Fruit Culture": 78,
-            "Species and Plantation": 91,
+            "Tropical Fruit Culture": 98,
+            "Species and Plantation": 61,
             "Commercial Floriculture": 74,
-            "Plant Breeding": 90,
+            "Plant Breeding": 60,
             "Manures and Fertilizers": 76,
-            "Plant Pathology": 88
+            "Plant Pathology": 78
         }
     },
 
@@ -209,12 +239,15 @@ const students = {
             present: 115
         },
 
+	gpa:"81.3%",
+        result:"PASS",
+
         marks: {
-            "Tropical Fruit Culture": 78,
-            "Species and Plantation": 91,
-            "Commercial Floriculture": 74,
-            "Plant Breeding": 90,
-            "Manures and Fertilizers": 76,
+            "Tropical Fruit Culture": 88,
+            "Species and Plantation": 61,
+            "Commercial Floriculture": 84,
+            "Plant Breeding": 89,
+            "Manures and Fertilizers": 78,
             "Plant Pathology": 88
         }
     },
@@ -229,13 +262,16 @@ const students = {
             present: 115
         },
 
+	gpa:"92.3%",
+        result:"PASS",
+
         marks: {
-            "Tropical Fruit Culture": 78,
+            "Tropical Fruit Culture": 95,
             "Species and Plantation": 91,
-            "Commercial Floriculture": 74,
+            "Commercial Floriculture": 84,
             "Plant Breeding": 90,
-            "Manures and Fertilizers": 76,
-            "Plant Pathology": 88
+            "Manures and Fertilizers": 96,
+            "Plant Pathology": 98
         }
     },
 
@@ -249,6 +285,9 @@ const students = {
             present: 115
         },
 
+	gpa:"82.8%",
+        result:"PASS",	
+        
         marks: {
             "Tropical Fruit Culture": 78,
             "Species and Plantation": 91,
@@ -297,6 +336,12 @@ function loadAttendance(){
 
         document.getElementById("percentage").innerHTML =
         percentage + "%";
+
+	document.getElementById("gpa").innerHTML =script.js
+ 	student.gpa;
+
+	document.getElementById("result").innerHTML =
+	student.result;
 
     } else {
 
