@@ -1,9 +1,9 @@
 // Multiple Students Data
 const students = {
 
-    "kkphp/2025-01": {
+    "KKPHP/2025-01": {
 
-	name:"Nithya",
+	name:"G.Charan",
 
         attendance: {
             total: 120,
@@ -20,9 +20,9 @@ const students = {
         }
     },
 
-    "kkphp/2025-02": {
+    "KKPHP/2025-02": {
 
-	name:"Usha sri",
+	name:"K.Akash Reddy",
 
         attendance: {
             total: 120,
@@ -40,9 +40,9 @@ const students = {
     },
  
     
-    "kkphp/2025-03": {
+    "KKPHP/2025-03": {
 
-	name:"Lavanya",
+	name:"L.NagaKishore",
 
         attendance: {
             total: 120,
@@ -60,9 +60,9 @@ const students = {
     },
 
     
-    "kkphp/2025-04": {
+    "KKPHP/2025-04": {
 
-	name:"Arthi",
+	name:"L.Prem Kumar Naik",
 
         attendance: {
             total: 120,
@@ -77,7 +77,189 @@ const students = {
             "Manures and Fertilizers": 76,
             "Plant Pathology": 88
         }
-    }
+    },
+
+
+    "KKPHP/2025-05": {
+
+	name:"M.Raghava",
+
+        attendance: {
+            total: 120,
+            present: 115
+        },
+
+        marks: {
+            "Tropical Fruit Culture": 78,
+            "Species and Plantation": 91,
+            "Commercial Floriculture": 74,
+            "Plant Breeding": 90,
+            "Manures and Fertilizers": 76,
+            "Plant Pathology": 88
+        }
+    },
+
+
+    "KKPHP/2025-06": {
+
+	name:"M.Limayath Basha",
+
+        attendance: {
+            total: 120,
+            present: 115
+        },
+
+        marks: {
+            "Tropical Fruit Culture": 78,
+            "Species and Plantation": 91,
+            "Commercial Floriculture": 74,
+            "Plant Breeding": 90,
+            "Manures and Fertilizers": 76,
+            "Plant Pathology": 88
+        }
+    },
+
+    
+    "KKPHP/2025-07": {
+
+	name:"M.Chanakya",
+
+        attendance: {
+            total: 120,
+            present: 115
+        },
+
+        marks: {
+            "Tropical Fruit Culture": 78,
+            "Species and Plantation": 91,
+            "Commercial Floriculture": 74,
+            "Plant Breeding": 90,
+            "Manures and Fertilizers": 76,
+            "Plant Pathology": 88
+        }
+    },
+
+
+    "KKPHP/2025-08": {
+
+	name:"M.Ananda Raju",
+
+        attendance: {
+            total: 120,
+            present: 115
+        },
+
+        marks: {
+            "Tropical Fruit Culture": 78,
+            "Species and Plantation": 91,
+            "Commercial Floriculture": 74,
+            "Plant Breeding": 90,
+            "Manures and Fertilizers": 76,
+            "Plant Pathology": 88
+        }
+    },
+
+    
+    "KKPHP/2025-09": {
+
+	name:"M.Prathyusha",
+
+        attendance: {
+            total: 120,
+            present: 115
+        },
+
+        marks: {
+            "Tropical Fruit Culture": 78,
+            "Species and Plantation": 91,
+            "Commercial Floriculture": 74,
+            "Plant Breeding": 90,
+            "Manures and Fertilizers": 76,
+            "Plant Pathology": 88
+        }
+    },
+
+    
+    "KKPHP/2025-10": {
+
+	name:"N.Rajesh",
+
+        attendance: {
+            total: 120,
+            present: 115
+        },
+
+        marks: {
+            "Tropical Fruit Culture": 78,
+            "Species and Plantation": 91,
+            "Commercial Floriculture": 74,
+            "Plant Breeding": 90,
+            "Manures and Fertilizers": 76,
+            "Plant Pathology": 88
+        }
+    },
+
+    
+    "KKPHP/2025-11": {
+
+	name:"S.Yasmin",
+
+        attendance: {
+            total: 120,
+            present: 115
+        },
+
+        marks: {
+            "Tropical Fruit Culture": 78,
+            "Species and Plantation": 91,
+            "Commercial Floriculture": 74,
+            "Plant Breeding": 90,
+            "Manures and Fertilizers": 76,
+            "Plant Pathology": 88
+        }
+    },
+
+ 
+    "KKPHP/2025-12": {
+
+	name:"Y.UshaSri",
+
+        attendance: {
+            total: 120,
+            present: 115
+        },
+
+        marks: {
+            "Tropical Fruit Culture": 78,
+            "Species and Plantation": 91,
+            "Commercial Floriculture": 74,
+            "Plant Breeding": 90,
+            "Manures and Fertilizers": 76,
+            "Plant Pathology": 88
+        }
+    },
+
+
+    "KKPHP/2025-13": {
+
+	name:"M.Jahnavi",
+
+        attendance: {
+            total: 120,
+            present: 115
+        },
+
+        marks: {
+            "Tropical Fruit Culture": 78,
+            "Species and Plantation": 91,
+            "Commercial Floriculture": 74,
+            "Plant Breeding": 90,
+            "Manures and Fertilizers": 76,
+            "Plant Pathology": 88
+        }
+    },
+
+
 };
 
 
