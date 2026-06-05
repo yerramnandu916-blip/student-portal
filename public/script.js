@@ -264,24 +264,16 @@ const students = {
 
 
 // LOGIN FUNCTION
-function login(){
+function login() {
+    const pin = document.getElementById("pin").value.trim();
 
-    const pin = document.getElementById("pin").value;
-
-    if(students[pin]){
-
-        // Save current student PIN
+    if (students[pin]) {
         localStorage.setItem("studentPin", pin);
-
         window.location.href = "dashboard.html";
-
     } else {
-
         alert("Invalid PIN Number");
-
     }
 }
-
 
 
 // ATTENDANCE PAGE
