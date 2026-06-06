@@ -12,13 +12,6 @@
 
 <div class="container">
 
-<thead>
-<tr>
-    <th>Subject</th>
-    <th>Marks</th>
-</tr>
-</thead>
-
 <table border="1" width="100%" cellpadding="10">
 
 <tr>
@@ -45,32 +38,6 @@
     <th>Subject</th>
     <th>Marks</th>
 </tr>
-
-<tbody id="marksTable"></tbody>
-
-<tr>
-    <th>Total</th>
-    <th id="totalMarks"></th>
-</tr>
-
-<tr>
-    <th>Percentage</th>
-    <th id="percentage"></th>
-</tr>
-
-<tr>
-    <th>GPA</th>
-    <th id="gpa"></th>
-</tr>
-
-<tr>
-    <th>Result</th>
-    <th id="result"></th>
-</tr>
-
-</table>
-
-<br>
 
 <tbody id="marksTable">
 </tbody>
@@ -110,7 +77,6 @@
 <script>
 
 const pin = localStorage.getItem("studentPin");
-
 const student = students[pin];
 
 const marksTable = document.getElementById("marksTable");
@@ -133,22 +99,15 @@ for(let subject in student.marks){
     `;
 }
 
-document.getElementById("totalMarks").innerHTML = total;
+document.getElementById("studentName").innerHTML = student.name;
+document.getElementById("studentPin").innerHTML = pin;
 
+document.getElementById("totalMarks").innerHTML = total;
 document.getElementById("percentage").innerHTML =
 (total / count).toFixed(2) + "%";
 
-document.getElementById("studentName").innerHTML =
-student.name;
-is there any issue
-document.getElementById("studentPin").innerHTML =
-pin;
-
-document.getElementById("gpa").innerHTML =
-student.gpa;
-
-document.getElementById("result").innerHTML =
-student.result;
+document.getElementById("gpa").innerHTML = student.gpa;
+document.getElementById("result").innerHTML = student.result;
 
 </script>
 

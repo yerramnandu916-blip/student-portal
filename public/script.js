@@ -330,6 +330,14 @@ function loadAttendance(){
         const percentage =
         ((present / total) * 100).toFixed(2);
 
+	document.getElementById("studentName").innerHTML = student.name;
+
+	document.getElementById("studentPin").innerHTML = pin;
+
+	document.getElementById("gpa").innerHTML = student.gpa;
+
+	document.getElementById("result").innerHTML = student.result;
+
         document.getElementById("total").innerHTML = total;
 
         document.getElementById("present").innerHTML = present;
